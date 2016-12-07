@@ -2,7 +2,6 @@
 Very practical Pythonista SFTPClient application
 
 ## Feature
-* Auto scanning ssh port (you can change this behavior at setting)
 
 * You can connect by passkey (password phrase)
 
