@@ -215,7 +215,7 @@ class SshSVDelegate(SshUserActionDelegate):
 		offset = int(scrollview.superview.dx)
 		if offset:
 			scrollview.superview.dx -= offset
-			self.send('\033[C' if offset > 0 else'\033[D')
+			self.send('\033[C' if offset > 0 else '\033[D')
 
 
 if __name__ == '__main__':
